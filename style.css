@@ -177,6 +177,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     cursor: pointer;
     margin: 4rem 0;
 }
@@ -186,8 +187,12 @@ header{
     position: relative;
 }
 .card img{
-    height: 150px;
-    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    
     transition: 0.5s ease-in-out;
 } 
 .card i{
