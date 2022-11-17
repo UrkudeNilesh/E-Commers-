@@ -156,6 +156,10 @@ header{
 .latest{
     padding: 50px 100px;    
 }
+.latest img{
+    height:220px;
+    width: 120px;
+}
 .product-intro{
     text-align: center;
 }
@@ -192,7 +196,7 @@ header{
     align-items: center;
     align-self: center;
     width: 100%;
-    
+
     transition: 0.5s ease-in-out;
 } 
 .card i{
